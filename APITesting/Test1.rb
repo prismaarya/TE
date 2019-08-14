@@ -17,3 +17,4 @@ response = HTTParty.get('http://api.stackexchange.com/2.2/questions?site=stackov
 
 puts response.body
 puts response.status
+puts response.status
